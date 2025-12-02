@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 10px;
     font-family: 'Arial, sans-serif';
+    min-width: 400px;
 }
 button {
     background-color: #5f9341;
@@ -18,4 +19,19 @@ input {
     box-sizing: border-box;
     width: 100%;
     margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-top: 5px;
+}
+a {
+    color: #5f9341;
+    font-weight: 500;
+}
+#clear-btn {
+    background-color: #d9534f;
+    margin-left: 10px;
 }
